@@ -1,9 +1,28 @@
-body{
-    background-color: #EAEAF6;
+
+
+div{ 
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-h1,h3{
-    color: #66BFBF;
+h1{
+    color: rgb(110, 202, 115);
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.625rem;
+    padding-top: 50px;
+    line-height: 2;
+}
+
+h2 {
+    color: rgb(110, 202, 115);
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: rgb(110, 202, 115);
+    font-family: 'Montserrat', sans-serif;
 }
 
 hr{
@@ -14,3 +33,103 @@ hr{
     border-color: grey;
     
 }
+
+body {
+    margin:0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+.top{
+    background-color: #292525;
+    padding: 100px;
+    background-image: url("https://media.giphy.com/media/3ohhwutQL0CDTq3kKA/giphy.gif");
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    position: relative;
+    left: 250px;
+}
+
+.skill-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.middle-container {
+    background-color: rgb(85, 85, 85);
+}
+ .code {
+     width: 25%;
+     float: left;
+     margin-right: 30px;
+ }
+
+ .emb {
+     width: 25%;
+     float: right;
+     margin-left: 30px;
+ }
+
+ .pfp {
+     width: 25%;
+     margin-top: 30px;
+ }
+
+ .attribute {
+     font-size: 0.5rem;
+     color: rgb(97, 160, 100);
+ }
+
+ .btn {
+    background: #47cc50;
+    background-image: -webkit-linear-gradient(top, #47cc50, #248527);
+    background-image: -moz-linear-gradient(top, #47cc50, #248527);
+    background-image: -ms-linear-gradient(top, #47cc50, #248527);
+    background-image: -o-linear-gradient(top, #47cc50, #248527);
+    background-image: linear-gradient(to bottom, #47cc50, #248527);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #6ca169;
+    background-image: -webkit-linear-gradient(top, #6ca169, #50754c);
+    background-image: -moz-linear-gradient(top, #6ca169, #50754c);
+    background-image: -ms-linear-gradient(top, #6ca169, #50754c);
+    background-image: -o-linear-gradient(top, #6ca169, #50754c);
+    background-image: linear-gradient(to bottom, #6ca169, #50754c);
+    text-decoration: none;
+  }
+
+  .contact-me {
+      margin: 60px 0 0 0;
+  }
+
+  .footer-link {
+      color: rgb(97, 160, 100);
+      margin: 10px;
+      
+  }
+
+  .bottom-container {
+      background-color: rgb(110, 202, 115);
+      padding: 40px;
+  }
+
+  .contact-text {
+      padding-bottom: 50px;
+  }
