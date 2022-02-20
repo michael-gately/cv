@@ -1,44 +1,155 @@
+/* Contains the nav bar and the title */
 
-/* Title Area. ID = top */
+#home{
+    background-color: #BFFFF0;
+    text-align: center;
+    color: #000;
+    /* background-image: url(../Images/always-grey.png); */
+    min-height: 110%;
+    min-width: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+    position: absolute;
+}
+
+/* Navbar. ID = nav */
 
 #nav {
     font-family: 'Roboto', sans-serif;
-    background-color: #BFFFF0;
-    text-align: center;
+
+    
     padding: 1% 10%;
 }
 
 .navbar {
     border-style: solid;
     border-width: 1px;
+    animation: 2s ease-out 0s 1 appear;
+    background-color: #BFFFF0;
 }
 
 .navbar-brand {
-    padding: 1%;
+    padding: 0% 2% 0% 1%;
     border-right: 1px solid;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 2rem;
 }
+
+.nav-item {
+    margin: 0% 4%;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Title Area. ID=top */
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    75% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 #top {
-    text-align: center;
-    
-    background-color: #BFFFF0;
-    color: #000;
-    padding: 4%;
+    padding: 12.2%;
+    position: absolute;
 }
 
 .bigTitle {
     font-size: 4rem;
     font-family: 'Roboto Serif', sans-serif;
+    animation: 2s ease-out 0s 1 appear;
 }
 
 .subTitle {
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
+    animation: 2s ease-out 0s 1 appear;
 }
 
-#intro {
-    background-color: #F0FFC2;
-    color: #000;
-    text-align: center;
-    padding: 2%;
+.paragraph {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    animation: 2s ease-out 0s 1 appear;
+    margin: 2%;
+}
+
+.title-btn {
+    margin: 3%;
+    padding: 1%;
+    animation: 2s ease-out 0s 1 appear;
+}
+
+
+.row {
+    margin: 3%;
+}
+
+.pfp {
+    max-width: 25rem;
+    max-height: auto;
+    border: 2px solid black;
+}
+
+/* Body area. Start of Experience id=intro */
+
+.invisible {
+    visibility: hidden;
+}
+
+#abo {
+    position: absolute;
+    padding: 2% 12.2% 12.2% 12.2% ;
+}
+
+#exp {
+    position: absolute;
+    padding: 2% 12.2% 12.2% 12.2% ;
+}
+
+
+
+#ski {
+    position: absolute;
+    padding: 2% 12.2% 12.2% 12.2% ;
+}
+
+#pro {
+    position: absolute;
+    padding: 2% 12.2% 12.2% 12.2% ;
+}
+
+#con {
+    position: absolute;
+    padding: 2% 12.2% 12.2% 12.2% ;
 }

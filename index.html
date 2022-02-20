@@ -13,40 +13,80 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700;900&family=Roboto:wght@100;300;400&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-  <div class="container-fluid" id="nav">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#top">Michael Gately</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Experience</a>
-          <a class="nav-item nav-link" href="#">Skills</a>
-          <a class="nav-item nav-link" href="#">Projects</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
+  <div id="home">
+    <div class="container-fluid" id="nav">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">MG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <button class="btn btnHome active">Home</button>
+            <button class="btn btnAbo">About Me</button>
+            <button class="btn btnExp">Experience</button>
+            <button class="btn btnSki">Skills</button>
+            <button class="btn btnPro">Projects</button>
+            <button class="btn btnCon">Contact</button>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
+
+    <div class="container-fluid" id="top">
+      <h1 class="bigTitle">Michael Gately</h1>
+      <h2 class="subTitle">A Full Stack Developer</h2>
+      <p class="paragraph">I make elegant websites for your personal or business use.</p>
+      <button type="button" class="btn btn-dark title-btn">Get in Contact</button>
+    </div>
+
+    <div class="container-fluid invisible" id="abo">
+      <h1 class="bigTitle">About Me</h1>
+      <ul>
+        <li>stuff</li>
+      </ul>
+    </div>
+    
+    <div class="container-fluid invisible" id="exp">
+      <h1 class="bigTitle">Experience</h1>
+      <ul>
+        <li>stuff</li>
+      </ul>
+    </div>
+
+
+    <div class="container-fluid invisible" id="ski">
+      <h1 class="bigTitle">Skills</h1>
+      <ul>
+        <li>stuff</li>
+      </ul>
+    </div>
+
+    <div class="container-fluid invisible" id="pro">
+      <h1 class="bigTitle">Projects</h1>
+      <ul>
+        <li>stuff</li>
+      </ul>
+    </div>
+
+    <div class="container-fluid invisible" id="con">
+      <h1 class="bigTitle">Contact</h1>
+      <h2 class="subTitle"> <i class="fa-solid fa-phone"></i>  Phone - 949-812-8394</h2>
+      <h2 class="subTitle"><i class="fa-solid fa-envelope"></i>  Email - michaeldavidgately@gmail.com</h2>
+    </div>
+
   </div>
 
-  <div class="container-fluid" id="top">
-    <h1 class="bigTitle">Michael Gately</h1>
-    <h2 class="subTitle">A Full Stack Developer</h2>
-  </div>
 
-  <div class="container-fluid" id="intro">
-    <h1>test test test</h1>
-  </div>
-
-
-
+  <script src="index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
