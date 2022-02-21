@@ -5,7 +5,7 @@
     text-align: center;
     color: #000;
     /* background-image: url(../Images/always-grey.png); */
-    min-height: 110%;
+    min-height: 120%;
     min-width: 100%;
     background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
     position: absolute;
@@ -116,9 +116,8 @@
 }
 
 .pfp {
-    max-width: 25rem;
-    max-height: auto;
-    border: 2px solid black;
+    position: relative;
+    right: 20%;
 }
 
 /* Body area. Start of Experience id=intro */
@@ -152,4 +151,17 @@
 #con {
     position: absolute;
     padding: 2% 12.2% 12.2% 12.2% ;
+}
+
+.para {
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.textBox {
+    border: 2px solid black;
+    padding: 3%;
+    background-color: #BFFFF0;
+    margin-top: 8%;
 }
