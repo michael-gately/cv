@@ -1,13 +1,18 @@
 /* Contains the nav bar and the title */
 
-#home{
+html {
     background-color: #BFFFF0;
+    background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+
+#home{
+    /* background-color: #BFFFF0; */
     text-align: center;
     color: #000;
     /* background-image: url(../Images/always-grey.png); */
-    min-height: 120%;
+    min-height: auto;
     min-width: 100%;
-    background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png"); */
     position: absolute;
 }
 
@@ -120,23 +125,30 @@
     right: 20%;
 }
 
+.pfp2 {
+    position: relative;
+    /* left: 20%; */
+    max-width: 120%;
+    max-height: auto;
+}
+
 /* Body area. Start of Experience id=intro */
 
 .invisible {
     visibility: hidden;
+    position: fixed;
 }
 
 #abo {
-    position: absolute;
+    /* position: absolute; */
     padding: 2% 12.2% 12.2% 12.2% ;
+    height: auto;
 }
 
 #exp {
     position: absolute;
     padding: 2% 12.2% 12.2% 12.2% ;
 }
-
-
 
 #ski {
     position: absolute;
