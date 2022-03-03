@@ -85,7 +85,7 @@ html {
 
 #top {
     padding: 12.2%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .bigTitle {
@@ -121,8 +121,8 @@ html {
 }
 
 .pfp {
-    position: relative;
-    right: 20%;
+    /* position: relative;
+    right: 20%; */
 }
 
 .pfp2 {
@@ -130,6 +130,11 @@ html {
     /* left: 20%; */
     max-width: 120%;
     max-height: auto;
+}
+
+.picRow {
+    margin: 10% 0%;
+    /* padding: 2%; */
 }
 
 /* Body area. Start of Experience id=intro */
@@ -141,28 +146,28 @@ html {
 
 #abo {
     /* position: absolute; */
-    padding: 2% 12.2% 12.2% 12.2% ;
+    padding: 1% 10%;
     height: auto;
 }
 
 #exp {
-    position: absolute;
-    padding: 2% 12.2% 12.2% 12.2% ;
+    /* position: absolute; */
+    padding: 1% 10%;
 }
 
 #ski {
-    position: absolute;
-    padding: 2% 12.2% 12.2% 12.2% ;
+    /* position: absolute; */
+    padding: 1% 10%;
 }
 
 #pro {
-    position: absolute;
-    padding: 2% 12.2% 12.2% 12.2% ;
+    /* position: absolute; */
+    padding: 1% 10%;
 }
 
 #con {
-    position: absolute;
-    padding: 2% 12.2% 12.2% 12.2% ;
+    /* position: absolute; */
+    padding: 1% 10%;
 }
 
 .para {
