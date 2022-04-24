@@ -208,9 +208,47 @@
 
     <div class="container-fluid invisible" id="pro">
       <h1 class="bigTitle">Projects</h1>
-      <ul>
-        <li>stuff</li>
-      </ul>
+      <div class="textRow lilPad">
+        <h2 class="subTitle">Senior Design Project</h2>
+        <p class="para">My senior design project at SDSU was a 4P1S, lithium-ion-phosphate, battery management system (BMS). Our
+          system monitored cell voltages, total pack voltages, temperature, and input/output current to stay within our
+          designated range. It could output up to 15 amps of current and had a text display to show the user charge
+          percentage, error codes, and other data. Personally, I designed the entire codebase in C to assure all data points
+          gathered through I2C were in our designated range, used serial communication to send data to the text display, and
+          set up hardware interrupts to watch the temperature and output current for dangerous levels.</p>
+      </div>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="picSize" src="Images/closed.JPG" alt="Closed Project">
+          </div>
+          <div class="carousel-item">
+            <img class="picSize" src="Images/open.JPG" alt="Open Project">
+          </div>
+          <div class="carousel-item">
+            <img class="picSize" src="Images/groupPhoto.JPG" alt="Group Photo">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+      
     </div>
 
     <div class="container-fluid invisible" id="con">

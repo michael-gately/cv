@@ -1,4 +1,3 @@
-/* Contains the nav bar and the title */
 
 html {
     background-color: #BFFFF0;
@@ -90,7 +89,7 @@ html {
 .pfp {
     /* position: relative;
     right: 20%; */
-    min-width: 100%;
+    max-width: 100%;
     max-height: auto;
 }
 
@@ -104,6 +103,11 @@ html {
 .picRow {
     margin: 6% 0%;
     /* padding: 2%; */
+}
+
+.picSize {
+    max-width: 60%;
+    max-height: auto;
 }
 
 .picCol {
@@ -176,4 +180,9 @@ html {
 
 .skiRow {
     margin: 2% 0%;
+}
+
+.lilPad {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
